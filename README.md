@@ -6,7 +6,7 @@ A simple, responsive, and accessible profile card built with HTML, CSS, and Java
 
 ## Live Demo
 
-Live Demo
+[Live Demo](https://iibrahimx.github.io/hng-stage1b-profile-card/)
 
 ---
 
