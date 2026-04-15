@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNG Stage 1B Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="page">
+      <article class="profile-card" data-testid="test-profile-card">
+        <figure class="profile-image-section">
+          <img
+            src="./avatar.png"
+            alt="Portrait of Ibrahim"
+            class="profile-avatar"
+            data-testid="test-user-avatar"
+          />
+        </figure>
+
+        <div class="profile-content">
+          <header class="profile-header">
+            <h1 class="profile-name" data-testid="test-user-name">
+              Ibrahim (ab.ib)
+            </h1>
+            <p class="profile-bio" data-testid="test-user-bio">
+              Aspiring fullstack developer currently improving my frontend,
+              backend, and mobile skills. I joined HNG to push my frontend
+              skills closer to a professional and industry-ready level while
+              also growing steadily in backend development.
+            </p>
+          </header>
+
+          <section class="profile-time-section">
+            <h2 class="section-title">Current Time</h2>
+            <p
+              class="profile-time"
+              data-testid="test-user-time"
+              aria-live="polite"
+            >
+              0
+            </p>
+          </section>
+
+          <nav
+            class="profile-socials"
+            aria-label="Social links"
+            data-testid="test-user-social-links"
+          >
+            <a
+              href="https://github.com/iibrahimx"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-github"
+              aria-label="GitHub"
+            >
+              <img src="icon-github.png" alt="" />
+            </a>
+
+            <a
+              href="https://x.com/iibrahiimx"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-x"
+              aria-label="X"
+            >
+              <img src="icon-x.png" alt="" />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/iibrahiimx/"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-linkedin"
+              aria-label="LinkedIn"
+            >
+              <img src="icon-linkedin.png" alt="" />
+            </a>
+          </nav>
+
+          <section class="profile-section">
+            <h2 class="section-title">Hobbies</h2>
+            <ul class="profile-list" data-testid="test-user-hobbies">
+              <li>Learning new tech skills</li>
+              <li>Reading</li>
+              <li>Watching movies</li>
+            </ul>
+          </section>
+
+          <section class="profile-section">
+            <h2 class="section-title">Dislikes</h2>
+            <ul class="profile-list" data-testid="test-user-dislikes">
+              <li>Dishonesty</li>
+              <li>Laziness</li>
+              <li>Poor communication</li>
+            </ul>
+          </section>
+        </div>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
